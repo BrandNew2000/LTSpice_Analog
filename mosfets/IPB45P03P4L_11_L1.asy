@@ -1,0 +1,31 @@
+Version 4
+SymbolType CELL
+LINE Normal 48 48 48 96
+LINE Normal 16 80 48 80
+LINE Normal 16 48 24 48
+LINE Normal 48 48 24 44
+LINE Normal 48 48 24 52
+LINE Normal 24 44 24 52
+LINE Normal 16 8 16 24
+LINE Normal 16 40 16 56
+LINE Normal 16 72 16 88
+LINE Normal 0 80 8 80
+LINE Normal 8 16 8 80
+LINE Normal 48 16 16 16
+LINE Normal 48 0 48 16
+WINDOW 0 1 -51 Left 2
+WINDOW 3 35 151 Top 2
+WINDOW 39 35 193 Top 2
+SYMATTR Value IPB45P03P4L_11_L1
+SYMATTR Prefix X
+SYMATTR ModelFile ./lib/OptiMOS_P2_30V_LTspice.lib
+SYMATTR SpiceLine dVth=0 dRdson=0 dgfs=0 dC=0 Ls=2.5n Ld=1n Lg=4n
+PIN 48 0 BOTTOM 8
+PINATTR PinName D
+PINATTR SpiceOrder 1
+PIN 0 80 RIGHT 20
+PINATTR PinName G
+PINATTR SpiceOrder 2
+PIN 48 96 TOP 8
+PINATTR PinName S
+PINATTR SpiceOrder 3
